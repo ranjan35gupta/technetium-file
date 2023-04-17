@@ -1,0 +1,2 @@
+git restore is used to undo the changes we made in the file in which we are working on
+git restore --staged filename Removes the file from the Staging Area, but leaves its actual modifications untouched
