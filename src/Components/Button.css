@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    border: 2px solid brown;
+    width: 500px;
+    height: 500px;
+    background-image:linear-gradient(rgb(126, 126, 227),grey);
+    
+    flex-direction: column;
+    align-items: center;
+
+}
+.container input{
+    font-size: medium;
+    width: 300px;
+    height: 50px;
+
+}
+.container button{
+    font-size: 20px;
+    border: 2px solid brown;
+    border-radius: 5px;
+    margin-right: 150px;
+}
